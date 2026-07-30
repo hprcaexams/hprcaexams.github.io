@@ -1258,3 +1258,20 @@ a {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* HPRCA multi-exam catalog */
+.exam-catalog{background:#f3f6f2}
+.exam-catalog .section-heading{margin-bottom:2.25rem}
+.exam-group{background:#fff;border:1px solid rgba(25,57,44,.12);border-radius:20px;padding:1.5rem;margin-top:1.25rem;box-shadow:0 10px 32px rgba(27,55,43,.06)}
+.exam-group--featured{background:linear-gradient(135deg,#fff 0%,#eef7f1 100%)}
+.exam-group__heading{display:flex;gap:1rem;align-items:center;margin-bottom:1.15rem}
+.exam-group__heading>span{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#173d31;color:#fff;font-weight:800}
+.exam-group__heading h3{margin:0;color:#173d31;font-size:1.2rem}
+.exam-group__heading p{margin:.2rem 0 0;color:#64756d;font-size:.9rem}
+.exam-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem}
+.exam-grid a{display:flex;justify-content:space-between;align-items:center;gap:.75rem;padding:1rem;border:1px solid #dfe8e2;border-radius:13px;background:#fafcfb;color:#213c32;text-decoration:none;font-weight:700;transition:.2s ease}
+.exam-grid a span{color:#e06b42}
+.exam-grid a:hover{border-color:#e06b42;background:#fff7f2;transform:translateY(-2px)}
+.exam-catalog__note{margin:1.25rem 0 0;color:#66766f;font-size:.9rem;text-align:center}
+@media(max-width:900px){.exam-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.exam-group{padding:1.1rem}.exam-grid{grid-template-columns:1fr}.exam-grid a{padding:.9rem}}

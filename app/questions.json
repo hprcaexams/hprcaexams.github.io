@@ -1,0 +1,544 @@
+[
+  {
+    "id": 1,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "The view of total database content is",
+    "options": [
+      "Conceptual view",
+      "Internal view",
+      "External view",
+      "Physical View"
+    ],
+    "answer": "Conceptual view",
+    "solution": "The conceptual view provides a unified view of the entire database. It represents the whole database schema and the relationships between different entities without considering how the data is stored physically or how different users see the data.",
+    "free": true
+  },
+  {
+    "id": 2,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Statement: “Salary of an employee should be positive integer”. Above statement corresponds to which of the following DBMS constraints?",
+    "options": [
+      "Entity Integrity Constraint",
+      "Domain Constraint",
+      "Key Constraint",
+      "Referential Integrity Constraint"
+    ],
+    "answer": "Domain Constraint",
+    "solution": "Answer: Domain Constraint Domain constraints restrict the allowable values for an attribute, such as its data type, format, or valid range. The statement that salary should be a positive integer is a domain-level rule and can be enforced by using an appropriate data type and a CHECK condition. For example: salary INT CHECK (salary > 0) This differs from key/entity integrity (which ensure uniqueness and non-null primary keys) and referential integrity (which enforces valid foreign key relationships).",
+    "free": true
+  },
+  {
+    "id": 3,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "An advantage of the database approach is ?",
+    "options": [
+      "Elimination of the data redundancy",
+      "Ability to associate related data",
+      "Increases security",
+      "All of these"
+    ],
+    "answer": "All of these",
+    "solution": "All first three statements are the advantages of DB approach.",
+    "free": true
+  },
+  {
+    "id": 4,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "An advantage of the database management approach is",
+    "options": [
+      "data is dependent on programs",
+      "data redundancy increases",
+      "data is integrated and can be accessed by multiple programs",
+      "none"
+    ],
+    "answer": "data is integrated and can be accessed by multiple programs",
+    "solution": "The advantage of the database management approach includes data being integrated and accessible by multiple programs, which helps in reducing redundancy and dependency on individual programs. Therefore, the correct answer is: (C) data is integrated and can be accessed by multiple programs.",
+    "free": true
+  },
+  {
+    "id": 5,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "What are the drawbacks of using file systems to store data? A. Data inconsistency B. Difficulty in accessing data C. Data isolation D. Lack of atomicity of updates Choose the correct answer from the options given below.",
+    "options": [
+      "A, B, only",
+      "B, C, D only",
+      "A, B, C only",
+      "A, B, C, D"
+    ],
+    "answer": "A, B, C, D",
+    "solution": "Correct answer: A, B, C, and D Data inconsistency: duplicated data in separate files can become inconsistent. Difficulty in accessing data: retrieval often requires custom programs instead of a standard query interface. Data isolation: data may be scattered across different files and formats. Lack of atomicity of updates: related updates may be only partially completed if a failure occurs. So all listed points are drawbacks of using ordinary file systems for data storage.",
+    "free": true
+  },
+  {
+    "id": 6,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Database application were directly built on top of file system to overcome the following drawbacks of using file-systems: (a) Data redundancy and inconsistency (b) Difficulty in accessing data (c) Data isolation (d) Integrity problems",
+    "options": [
+      "(a)",
+      "(a) and (d)",
+      "(a), (b) and (c)",
+      "(a), (b), (c) and (d)"
+    ],
+    "answer": "(a), (b), (c) and (d)",
+    "solution": "Answer: Database systems address all four listed drawbacks. Brief explanations of how databases overcome each problem: Data redundancy and inconsistency: File-based systems often store duplicate data across multiple files, causing inconsistent updates. Database systems centralize data, use data modeling and normalization, and provide a single source of truth to reduce redundancy and inconsistency. Difficulty in accessing data: In file-based systems each application must implement its own data access logic. DBMSs provide high-level query languages (such as SQL), APIs, and optimized access methods that make it easier to retrieve and manipulate data. Data isolation: Files may use different formats and be scattered across applications, making combined queries and integration hard. A database offers a unified schema and centralized management, removing isolation and enabling integrated views of the data. Integrity problems: File systems cannot easily enforce global constraints or atomic updates. DBMSs support integrity constraints, transactions (ACID properties), and concurrency control to ensure correctness and consistency of data. Therefore, all four issues—data redundancy and inconsistency; difficulty in accessing data; data isolation; and integrity problems—are reasons why database applications were built on top of file systems.",
+    "free": true
+  },
+  {
+    "id": 7,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "A view of database that appears to an application program is known as",
+    "options": [
+      "Schema",
+      "Subschema",
+      "Virtual table",
+      "Index Table"
+    ],
+    "answer": "Subschema",
+    "solution": "In database architecture, a view of the database that appears to an application program is known as a subschema. This external level defines how users or applications perceive the data, allowing them to access only relevant portions without exposing underlying complexity.",
+    "free": true
+  },
+  {
+    "id": 8,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is a function of the DBMS?",
+    "options": [
+      "Storing data",
+      "Providing multi-users access control",
+      "Data Integrity",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "solution": "A Database Management System (DBMS) performs many functions, including: Storing data securely. Providing multi-user access control to handle concurrent users. Ensuring data integrity, so that data remains accurate and consistent. Thus, the correct answer is d. All of the above.",
+    "free": true
+  },
+  {
+    "id": 9,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is not a function of the database?",
+    "options": [
+      "Managing stored data",
+      "Manipulating data",
+      "Security for stored data",
+      "Analysing code"
+    ],
+    "answer": "Analysing code",
+    "solution": "A database system primarily focuses on managing, manipulating, and securing data. However, analyzing code is related to programming environments or compilers, not databases.",
+    "free": true
+  },
+  {
+    "id": 10,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Arrange the following phases of database design in the correct order: (A) Physical Design (B) Conceptual Design (C) Logical Design (D) Requirement Analysis Choose the correct answer from the options given below:",
+    "options": [
+      "(B), (D), (A), (C)",
+      "(C), (A), (B), (D)",
+      "(D), (B), (C), (A)",
+      "(A), (D), (C), (B)"
+    ],
+    "answer": "(D), (B), (C), (A)",
+    "solution": "Correct sequence: Requirement Analysis → Conceptual Design → Logical Design → Physical Design. Requirement Analysis — Gather user needs, business rules, and constraints that the database must satisfy. Conceptual Design — Create a high-level model (for example, ER diagrams) identifying entities and relationships without considering a specific DBMS. Logical Design — Translate the conceptual model into a logical schema (tables, attributes, keys, and relationships), and apply normalization rules. Physical Design — Decide physical storage structures, indexing, partitioning, and DBMS-specific implementation details to optimize performance. Reasoning: You must first understand what the system needs (requirements). The conceptual model captures those needs at a high level, the logical model maps them into database constructs, and the physical design makes implementation choices for performance and storage.",
+    "free": true
+  },
+  {
+    "id": 11,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "What will be the right sequence of the phases of database design- A. Physical Design B. Conceptual Design C. Logical Design D. Requirement collection and analysis Choose the correct answer from the options given below:",
+    "options": [
+      "D, A, B, C",
+      "D, B, C, A",
+      "D, B, A, C",
+      "D, A, C, B"
+    ],
+    "answer": "D, B, C, A",
+    "solution": "Correct sequence: Requirement collection and analysis → Conceptual design → Logical design → Physical design. Requirement collection and analysis: Gather user requirements, business rules, and use cases to understand what the database must support. Conceptual design: Create a high-level model (for example, an ER model) that identifies entities, relationships, and constraints without DBMS-specific details. Logical design: Translate the conceptual model into a logical schema for the chosen data model (e.g., relational schemas), perform normalization, and define keys. Physical design: Decide on storage structures, indexing, partitioning, and DBMS-specific optimizations based on the logical schema and performance requirements. Why this order: Each phase builds on the previous one: requirements inform the conceptual model, the conceptual model is refined into a logical schema, and the logical schema determines physical implementation choices. Doing physical design before finalizing the logical model can lead to inefficient or incorrect storage and indexing decisions.",
+    "free": true
+  },
+  {
+    "id": 12,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is not an example of an application of a Database?",
+    "options": [
+      "Video Editing",
+      "Profile Management System",
+      "Result Management System",
+      "Inventory Control System"
+    ],
+    "answer": "Video Editing",
+    "solution": "Profile Management Systems, Result Management Systems, and Inventory Control Systems all store, retrieve, and manage structured data, which requires a database.\nVideo editing primarily involves multimedia processing, not database management.",
+    "free": true
+  },
+  {
+    "id": 13,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following represents the capacity to change the conceptual schema without having to change external schemas or application programs?",
+    "options": [
+      "Virtual data independence",
+      "Hierarchical data independence",
+      "Physical data independence",
+      "Logical data independence"
+    ],
+    "answer": "Logical data independence",
+    "solution": "Logical data independence allows changes to the conceptual schema without affecting external schemas or application programs.",
+    "free": true
+  },
+  {
+    "id": 14,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "The process of removing deficiencies and loop holes in the data is called as _____.",
+    "options": [
+      "Data aggregation",
+      "Extraction of data",
+      "Compression of data",
+      "Cleaning of data"
+    ],
+    "answer": "Cleaning of data",
+    "solution": "Data cleaning identifies and corrects missing, inaccurate, inconsistent or duplicate values so that the stored data is suitable for reliable use.",
+    "free": true
+  },
+  {
+    "id": 15,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Conceptual level, Internal level and External level are three components of the three-level RDBMS architecture.\nWhich of the following is not part of the conceptual level?",
+    "options": [
+      "Storage dependent details",
+      "Entities, attributes, relationships",
+      "Constraints",
+      "Semantic information"
+    ],
+    "answer": "Storage dependent details",
+    "solution": "Answer: Storage dependent details are not part of the conceptual level; they belong to the internal (physical) level.\nà¤¸à¤Ÿà¥€à¤• à¤‰à¤¤à¥à¤¤à¤°: à¤­à¤‚à¤¡à¤¾à¤°à¤£-à¤¨à¤¿à¤°à¥à¤­à¤° à¤µà¤¿à¤µà¤°à¤£ à¤¸à¤‚à¤•à¤²à¥à¤ªà¤¨à¤¾à¤¤à¥à¤®à¤• à¤¸à¥à¤¤à¤° à¤•à¤¾ à¤­à¤¾à¤— à¤¨à¤¹à¥€à¤‚ à¤¹à¥ˆà¤‚; à¤µà¥‡ à¤†à¤‚à¤¤à¤°à¤¿à¤• (à¤«à¤¿à¤œà¤¿à¤•à¤²) à¤¸à¥à¤¤à¤° à¤¸à¥‡ à¤¸à¤‚à¤¬à¤‚à¤§à¤¿à¤¤ à¤¹à¥‹à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤\nConceptual level includes:\nEntities",
+    "free": true
+  },
+  {
+    "id": 16,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is NOT an element of Database?",
+    "options": [
+      "Schema",
+      "Relationships",
+      "Constraints",
+      "Frontend"
+    ],
+    "answer": "Frontend",
+    "solution": "Frontend is not an element of DB",
+    "free": true
+  },
+  {
+    "id": 17,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "_____ is known as the acquisition, storage, organization, retrieval, display and dissemination of information.",
+    "options": [
+      "Data management",
+      "Information processing",
+      "Data structure",
+      "Programming management"
+    ],
+    "answer": "Information processing",
+    "solution": "The correct answer is Option B: Information processing. This term specifically defines the comprehensive lifecycle of handling information, which includes acquiring raw data, storing it for future use, organizing it into a structured format, retrieving it when needed, displaying results to users, and disseminating the final information to relevant parties. This sequence of operations transforms raw inputs into meaningful outputs, which is the core function of information processing systems. While Data management (Option A) involves policies and governance regarding data, it does not explicitly cover the operational steps of retrieval and display. Similarly, Data structure (Option C) refers to how data is arranged in memory rather than the process of handling it, and Programming management (Option D) focuses on software development oversight. Therefore, the description provided in the question aligns perfectly with the standard definition of Information processing.",
+    "free": true
+  },
+  {
+    "id": 18,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is NOT an approach of database design in database management system?",
+    "options": [
+      "Top-down approach",
+      "Bottom-up approach",
+      "Inside-out approach",
+      "Up-down approach"
+    ],
+    "answer": "Up-down approach",
+    "solution": "Correct Answer: D) Up-down approach Explanation of Each Option: A) Top-down approach - This is a valid database design approach. - In this method, design starts from the overall system view and gradually breaks it into smaller entities, attributes, and relationships. - Hence, this option is incorrect. B) Bottom-up approach - This is also a valid database design approach. - In this method, small data components and attributes are identified first and then combined to form higher-level entities and relationships. - Hence, this option is incorrect. C) Inside-out approach - This is a recognized database design approach. - In this method, design starts from the core important entities and then expands outward by adding related entities and relationships. - Hence, this option is incorrect. D) Up-down approach - “Up-down approach” is not a standard or recognized database design approach in DBMS. - Therefore, this is the correct answer. The main approaches of database design in DBMS are: 1. Top-Down Approach 2. Bottom-Up Approach 3. Inside-Out Approach 4. Mixed Approach So, the option which is NOT an approach of database design will be the one other than these standard approaches.",
+    "free": true
+  },
+  {
+    "id": 19,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "What is the full form of DDLC in database?",
+    "options": [
+      "Distributed Database Log Clearing",
+      "Distributed Database Life Cycle",
+      "Database Development Life Cycle",
+      "Deductive Database Life Cycle"
+    ],
+    "answer": "Database Development Life Cycle",
+    "solution": "Database Development Life Cycle",
+    "free": true
+  },
+  {
+    "id": 20,
+    "source": "PYQ",
+    "level": "Intermediate",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which one of the following statement is not correct?",
+    "options": [
+      "Data models provide necessary means to achieve data abstraction.",
+      "Self-describing nature of database system is one of the characteristics of the database approach.",
+      "Database approach doesn’t support data independence between data and programs.",
+      "Database approach supports multiple views of the data."
+    ],
+    "answer": "Database approach doesn’t support data independence between data and programs.",
+    "solution": "Step 1: Understand that data models are used to abstract data from physical storage, allowing users to interact with data at a conceptual level. This supports data abstraction.\nStep 2: A self-describing database system stores metadata about its structure, enabling it to manage data independently. This is a key feature of the database approach.\nStep 3: The database approach supports data independence, meaning changes in data storage do not affect programs. This allows flexibility in database design.\nStep 4: Multiple views allow different users to see data in ways that suit their needs, which is a supported feature in database systems.",
+    "free": true
+  },
+  {
+    "id": 21,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "What is a database?",
+    "options": [
+      "Organized collection of information that cannot be accessed, updated and managed",
+      "Organized collection of data or information that can be accessed, updated and managed",
+      "Organized collection of data that cannot be updated",
+      "More than one of the above"
+    ],
+    "answer": "Organized collection of data or information that can be accessed, updated and managed",
+    "solution": "A database is an organized collection of data that can be accessed, updated, and managed efficiently. It allows users to store, retrieve, and manipulate information in a structured way. Databases are used in various applications such as banking, e-commerce, and inventory management.",
+    "free": true
+  },
+  {
+    "id": 22,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which type of data can be stored in the database?",
+    "options": [
+      "Image-oriented data",
+      "Text, files containing data",
+      "Data in the form of audio or video",
+      "More than one of the above"
+    ],
+    "answer": "More than one of the above",
+    "solution": "Databases can store various types of data, including text, images, audio, and video. Text data is stored using data types like VARCHAR or TEXT. Image-oriented data can be stored as binary large objects (BLOBs). Files containing data, such as CSV or JSON, are also stored as text or binary. Audio and video data are stored using BLOB or CLOB types, commonly used in multimedia applications. Since multiple types from the options are supported, the correct choice reflects that more than one type can be stored.",
+    "free": true
+  },
+  {
+    "id": 23,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is not an example of DBMS?",
+    "options": [
+      "Microsoft Access",
+      "IBM DB2",
+      "Google",
+      "More than one of the above"
+    ],
+    "answer": "Google",
+    "solution": "To determine which option is not an example of a DBMS, we need to understand what a DBMS is. A Database Management System (DBMS) is software that allows users to create, manage, and manipulate databases. Examples include Microsoft Access, IBM DB2, Oracle, and MySQL.\nOption A: Microsoft Access is a relational DBMS developed by Microsoft. It is used for small to medium-sized databases and supports data entry, querying, and reporting. Hence, it is a valid example of a DBMS.\nOption B: IBM DB2 is a powerful, enterprise-level relational database system developed by IBM. It is used in large-scale applications and supports complex data management. Therefore, it is also a valid example of a DBMS.\nOption C: Google is a search engine and internet services company. It provides tools like Google Search, Gmail, and Google Drive, but it is not a database management system. It does not offer a platform for structured data storage and management like a DBMS. Hence, it is not an example of a DBMS.\nOption D: This option claims that more than one of the above is not a DBMS. However, only Google (Option C) is not a DBMS. Since only one item is not a DBMS, this option is incorrect.\nOption E: This option states that none of the above are not DBMS, meaning all are DBMS. But since Google is not a DBMS, this option is also incorrect.\nTherefore, the correct answer is Option C, as it is the only one that is not a DBMS.",
+    "free": true
+  },
+  {
+    "id": 24,
+    "source": "PYQ",
+    "level": "Intermediate",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is not a feature of DBMS?",
+    "options": [
+      "Minimum duplication and redundancy of data",
+      "Single-user access only",
+      "Support ACID property",
+      "More than one of the above"
+    ],
+    "answer": "Single-user access only",
+    "solution": "Step 1: DBMS (Database Management System) is designed to manage data efficiently with features like reduced redundancy, multi-user access, and ACID properties.\nStep 2: Option A (Minimum duplication and redundancy) is a key feature of DBMS, so it is not the correct answer.\nStep 3: Option B (Single-user access only) is not a feature of DBMS, as DBMS supports concurrent access by multiple users.\nStep 4: Option C (Support ACID property) is a standard feature of DBMS, so it is not the correct answer.\nStep 5: Option D (More than one of the above) is incorrect because only one option (B) is not a feature.\nStep 6: Option E (None of the above) is incorrect because option B is not a feature of DBMS.",
+    "free": true
+  },
+  {
+    "id": 25,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is not a function of the database?",
+    "options": [
+      "Manipulating data",
+      "Security for stored data",
+      "Analysing code",
+      "More than one of the above"
+    ],
+    "answer": "Analysing code",
+    "solution": "Step 1: A database is designed to store, retrieve, and manage data efficiently. Core functions include data manipulation (inserting, updating, deleting), ensuring data security, and maintaining data integrity.\nStep 2: Option A (Manipulating data) is a standard function of a database, as it involves operations like SELECT, INSERT, UPDATE, and DELETE.\nStep 3: Option B (Security for stored data) is also a key function, as databases use access controls, encryption, and authentication to protect data.\nStep 4: Option C (Analysing code) is not a function of a database. Code analysis is performed by development tools or IDEs, not by the database system itself.\nStep 5: Option D (More than one of the above) is incorrect because only one option (C) is not a database function.\nStep 6: Option E (None of the above) is incorrect because Option C is not a database function.",
+    "free": true
+  },
+  {
+    "id": 26,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "The DBMS acts as an interface between _____ and _____ of an enterprise-class system.",
+    "options": [
+      "Data, the DBMS",
+      "Database application, the database",
+      "The user, the software",
+      "More than one of the above"
+    ],
+    "answer": "Database application, the database",
+    "solution": "A Database Management System (DBMS) is software that manages databases and enables applications to interact with them. It acts as an intermediary between the database and the database applications. This means the DBMS provides a structured way for applications to store, retrieve, and manage data without needing to understand the underlying database structure. Therefore, the DBMS serves as an interface between the database application and the database.",
+    "free": true
+  },
+  {
+    "id": 27,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is not a utility of DBMS? I. Backup II. Loading III. Process organization IV. File organization",
+    "options": [
+      "I, II and IV only",
+      "III only",
+      "I, III and IV only",
+      "More than one of the above"
+    ],
+    "answer": "III only",
+    "solution": "Correct answer: III only. Backup, Loading and File organization are utilities/functions associated with DBMS. Process organization is related to operating-system process management rather than DBMS utilities. Therefore, the item that is not a utility of DBMS is III only.",
+    "free": true
+  },
+  {
+    "id": 28,
+    "source": "PYQ",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is not a feature of DBMS?",
+    "options": [
+      "Minimum duplication and redundancy of data",
+      "High-level of security",
+      "Single-user access only",
+      "More than one of the above"
+    ],
+    "answer": "Single-user access only",
+    "solution": "Step 1: DBMS (Database Management System) is designed to manage data efficiently and securely. It ensures data integrity, minimizes redundancy, and supports multi-user access.\nStep 2: Option A (Minimum duplication and redundancy) is a key feature of DBMS, as it reduces data anomalies and storage waste.\nStep 3: Option B (High-level of security) is also a feature, as DBMS includes access control, encryption, and user authentication.\nStep 4: Option C (Single-user access only) is not a feature of DBMS, as modern DBMS supports concurrent access by multiple users.\nStep 5: Option D (More than one of the above) is incorrect because only one option (C) is not a feature.\nStep 6: Option E (None of the above) is incorrect because Option C is not a feature of DBMS.",
+    "free": true
+  },
+  {
+    "id": 29,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "A Database Management System is a type of ______ software.",
+    "options": [
+      "It is a type of system software",
+      "It is a kind of application software",
+      "It is a kind of general software",
+      "Both A and C"
+    ],
+    "answer": "It is a kind of application software",
+    "solution": "A DBMS (Database Management System) is considered application software because it helps users perform specific tasks like storing, retrieving, and managing data. It is not system software (like operating system), but software designed to handle database-related operations. Explanation: A DBMS (Database Management System), a key concept in Database Management Systems, is considered application software because it helps users perform specific tasks such as storing, retrieving, and managing data. It is not system software like an operating system. This confusion is common, since a DBMS does provide services to programs, but it does not manage hardware resources. System software (like an OS) operates at a low level, handling CPU, memory, and I/O, whereas a DBMS runs on top of the OS and focuses only on data management. It depends on the OS for core functions like memory allocation and process handling. Therefore, even though it supports other applications, it solves a user-level problem rather than controlling system resources, which is why it is classified as application software.",
+    "free": true
+  },
+  {
+    "id": 30,
+    "source": "Expert Practice",
+    "level": "Beginner",
+    "subject": "Database Management System",
+    "topic": "Basics of DBMS",
+    "subtopic": "DBMS Fundamentals",
+    "question": "Which of the following is not a limitation of file system?",
+    "options": [
+      "Data Redundancy",
+      "Data Inconsistency",
+      "Data dependence",
+      "Storing Space"
+    ],
+    "answer": "Storing Space",
+    "solution": "File systems have several limitations, including data redundancy, data inconsistency, and data dependence. Data redundancy occurs when the same data is stored in multiple places, leading to wasted space and potential inconsistencies. Data inconsistency arises when updates to data are not synchronized across all copies, causing conflicting information. Data dependence means that data is tightly coupled with the application, making it difficult to modify or access without changing the application. However, storing space is not a limitation; it is a necessary resource for data storage and is managed by the system.",
+    "free": true
+  },
+  {
+    "id": 31,
+    "source

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "topic": "Introduction to OS",
+    "subtopic": "OS Basics & Goals",
+    "question": "The operating system is responsible for:",
+    "options": [
+      "Controlling peripheral devices such as monitor, printers, disk drives",
+      "Provide an interface that allows users to choose programs to run/manipulate files",
+      "Manage user files on disk",
+      "All of the above"
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Introduction to OS",
+    "subtopic": "OS Basics & Goals",
+    "question": "Which of the following is an example of Operating System?",
+    "options": [
+      "Edge",
+      "Word",
+      "Firefox",
+      "Android"
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Introduction to OS",
+    "subtopic": "OS Basics & Goals",
+    "question": "This system software provides an interface to a hardware device, enabling the operating system to access that hardware.",
+    "options": [
+      "Control Panel",
+      "Device Driver",
+      "Program installer",
+      "Firmware"
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Introduction to OS",
+    "subtopic": "OS Types & Evolution",
+    "question": "Which type of operating system reads input and reacts within a fixed time constraint?",
+    "options": [
+      "Batch system",
+      "Quick response time",
+      "Real-time system",
+      "Time-sharing system"
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Introduction to OS",
+    "subtopic": "OS Types & Evolution",
+    "question": "What is the full form of RTOS?",
+    "options": [
+      "Reliable Time Operating System",
+      "Real Time Operating System",
+      "Reboot Time Operating System",
+      "None of these"
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Introduction to OS",
+    "subtopic": "OS Types & Evolution",
+    "question": "An operating system that helps in sharing files across a network is known as ______.",
+    "options": [
+      "Network Operating System",
+      "Real Operating System",
+      "Time Operating System",
+      "Coupling Operating System"
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Introduction to OS",
+    "subtopic": "OS Structure & Interface",
+    "question": "What differentiates a GUI from a CLI?",
+    "options": [
+      "GUI uses text, CLI uses graphics",
+      "GUI is slower, CLI is faster",
+      "GUI uses graphics, CLI uses text commands",
+      "GUI is outdated, CLI is modern"
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Introduction to OS",
+    "subtopic": "OS Structure & Interface",
+    "question": "Which of the following allows the user to directly interact with the system using command-line commands?",
+    "options": [
+      "CLI",
+      "GUI",
+      "Micro-Kernel",
+      "Distributed OS"
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Introduction to OS",
+    "subtopic": "System Calls & Dual Mode",
+    "question": "Which interface is used to access the services of an operating system?",
+    "options": [
+      "Library",
+      "System calls",
+      "Assembly instructions",
+      "API"
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Process Management",
+    "subtopic": "Process Basics & PCB",
+    "question": "The simultaneous processing of two or more programs by multiple processors is:",
+    "options": [
+      "Multitasking",
+      "Multiprogramming",
+      "Multiprocessing",
+      "Time-sharing"
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "Process Management",
+    "subtopic": "Process Basics & PCB",
+    "question": "A program stored on disk, before it starts executing, is a:",
+    "options": [
+      "Active",
+      "Passive",
+      "Dormant",
+      "Hyperactive"
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Process Management",
+    "subtopic": "Process Basics & PCB",
+    "question": "What is a Process Control Block?",
+    "options": [
+      "Process type variable",
+      "Data Structure",
+      "A secondary storage section",
+      "A Block in memory"
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Process Management",
+    "subtopic": "Process State & Lifecycle",
+    "question": "A process in the context of computing is:",
+    "options": [
+      "A set of instructions to be executed on a computer",
+      "A piece of hardware that executes a set of instructions",
+      "A program in execution",
+      "The main procedure of a program"
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "Process Management",
+    "subtopic": "Process State & Lifecycle",
+    "question": "A process in main memory that is ready and waiting for CPU execution is kept in the:",
+    "options": [
+      "Execution Queue",
+      "Job Queue",
+      "Ready Queue",
+      "Wait Queue"
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "Process Management",
+    "subtopic": "Process State & Lifecycle",
+    "question": "The state of a process after it encounters an I/O instruction is",
+    "options": [
+      "ready",
+      "blocked",
+      "idle",
+      "running"
+    ]
+  },
+  {
+    "id": 16,
+    "topic": "Process Management",
+    "subtopic": "Schedulers & Switching",
+    "question": "Which module gives control of the CPU to the process selected by the short-term scheduler?",
+    "options": [
+      "Dispatcher",
+      "Interrupt",
+      "Scheduler",
+      "Threading"
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "CPU Scheduling",
+    "subtopic": "Basics & Criteria",
+    "question": "In the context of process scheduling, what does \"context switch\" mean?",
+    "options": [
+      "Changing the process state from running to waiting",
+      "Switching the CPU from one process to another",
+      "Updating the process priority",
+      "None of the above"
+    ]
+  },
+  {
+    "id": 18,
+    "topic": "CPU Scheduling",
+    "subtopic": "Basics & Criteria",
+    "question": "What is Throughput in process scheduling?",
+    "options": [
+      "Time required to complete a process",
+      "Number of processes completed per unit time",
+      "Time required by a process to respond",
+      "Time required to abort a process"
+    ]
+  },
+  {
+    "id": 19,
+    "topic": "CPU Scheduling",
+    "subtopic": "FCFS Scheduling",
+    "question": "What is the full form of FIFO?",
+    "options": [
+      "Formula In Formula Out",
+      "First In First Out",
+      "Figure In Figure Out",
+      "Flash In Flash Out"
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "CPU Scheduling",
+    "subtopic": "SJF & SRTF Scheduling",
+    "question": "What is the main scheduling criterion for the Shortest Job First (SJF) algorithm?",
+    "options": [
+      "Priority level",
+      "Arrival time",
+      "Burst time",
+      "Quantum"
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "CPU Scheduling",
+    "subtopic": "Priority Scheduling",
+    "question": "Which CPU scheduling algorithm uses a time quantum?",
+    "options": [
+      "shortest job scheduling algorithm",
+      "round robin scheduling algorithm",
+      "priority scheduling algorithm",
+      "multilevel queue scheduling algorithm"
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "CPU Scheduling",
+    "subtopic": "Priority Scheduling",
+    "question": "Which technique prevents the indefinite blocking of low-priority processes in priority scheduling?",
+    "options": [
+      "Swapping",
+      "dirty bit",
+      "aging",
+      "compaction"
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "CPU Scheduling",
+    "subtopic": "Round Robin Scheduling",
+    "question": "In Round Robin scheduling, what is the term for the fixed time that a process can execute?",
+    "options": [
+      "Burst Time",
+      "Quantum",
+      "Priority Level",
+      "Waiting Time"
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "Process Synchronization",
+    "subtopic": "Intro & Critical Section",
+    "question": "If a process is executing in its critical section, then no other processes can be executing in their critical section. What is this condition called?",
+    "options": [
+      "mutual exclusion",
+      "critical exclusion",
+      "synchronous exclusion",
+      "asynchronous exclusion"
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "Process Synchronization",
+    "subtopic": "Intro & Critical Section",
+    "question": "What is the main goal of the mutual exclusion criterion in process synchronization?",
+    "options": [
+      "To ensure that all processes get equal CPU time",
+      "To allow only one process at a time in its critical section for shared resource",
+      "To ensure that processes are completed in the order they were started",
+      "To maximize CPU utilization"
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "Deadlock",
+    "subtopic": "Avoidance & Banker's Algo",
+    "question": "The Banker's algorithm is used for:",
+    "options": [
+      "Detecting deadlocks",
+      "Avoidance deadlocks",
+      "Memory allocation",
+      "Process scheduling"
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "Threads & Process Creation",
+    "subtopic": "Fork System Call",
+    "question": "______ system call creates new process in Unix.",
+    "options": [
+      "create",
+      "create new",
+      "fork",
+      "fork new"
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "Threads & Process Creation",
+    "subtopic": "Threading & Models",
+    "question": "A thread in Operating System is a",
+    "options": [
+      "Process",
+      "light weight process",
+      "Program",
+      "Task"
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "Memory Management",
+    "subtopic": "Basics & Hierarchy",
+    "question": "Which of the following is the main purpose of memory management in an operating system?",
+    "options": [
+      "To increase CPU speed",
+      "To manage secondary storage",
+      "To allocate and deallocate main memory to processes",
+      "To control input devices"
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "Memory Management",
+    "subtopic": "Basics & Hierarchy",
+    "question": "What is the function of the Memory Management Unit (MMU)?",
+    "options": [
+      "To manage the CPU's memory",
+      "To manage the hard disk's memory",
+      "To translate virtual addresses to physical addresses",
+      "To translate physical addresses to virtual addresses"
+    ]
+  }
+]
